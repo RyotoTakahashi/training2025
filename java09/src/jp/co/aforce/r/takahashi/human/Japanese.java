@@ -1,8 +1,8 @@
 package jp.co.aforce.r.takahashi.human;
 
-public class Japanese extends getAge {
+public class Japanese extends Human {
     public Japanese(String name) {
-        this.name = name;
+        this.setName(name);
     }
     public static class Japanese_Greetings implements Greetings{
         @Override

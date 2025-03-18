@@ -4,9 +4,26 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 
 
-class getAge{
-    public String name;
-    public String birthday;
+class Human {
+    private String name;
+    private String birthday;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
+
     interface Greetings {
         void sayGreetings(String name);
     }
