@@ -1,11 +1,11 @@
 package jp.co.aforce.r.takahashi.human;
 
 
-public class American extends getAge {
+public class American extends Human {
     public American(String name) {
-        this.name = name;
+        this.setName(name);
     }
-    public static class American_Greedings implements Greetings{
+    public static class American_Greetings implements Greetings{
         @Override
         public void sayGreetings(String name){
             System.out.println("Hello.");
